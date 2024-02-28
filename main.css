@@ -1,0 +1,61 @@
+body{
+    font-family: "Noto Sans", sans-serif;;
+}
+.navbar{
+    background-color: #DF372D;
+}
+#cabecalho .nav .nav-link.active{
+    background-color: #F3FFFF;
+    color: #DF372D;
+}
+#cabecalho .nav .nav-link, .navbar-brand,
+.navbar-brand:hover, .nav-cardapio .nav-link.active:hover {
+    color: #F3FFFF;
+}
+.navbar-brand{
+    font-size: 42px;
+}
+.navbar-toggler{
+    background-color: #F3FFFF;
+}
+.carousel-item img{
+    height: 530px;
+    width: 100%;
+}
+.section-title{
+    font-family: "Rancho", cursive;
+}
+#sobre-o-restaurante, #cardapio {
+    background-color: #df362d34;
+}
+.text-colored{
+    color: #DF372D
+}
+.nav-cardapio .nav-link.active,
+#fale-conosco button{
+    background-color: #DF372D;
+    color: #F3FFFF;
+}
+.nav-cardapio .nav-link:hover{
+    color: #DF372D;
+}
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+.social-links a{
+    text-decoration: none;
+}
+@media (max-width: 768px){
+    .carousel-item img{
+        height: 280px;
+    }
+    .imagem-sobre{
+        display: none;
+    }
+}
+@media (max-width: 769px){
+    .imagem-sobre{
+        display: block;
+    }
+}
